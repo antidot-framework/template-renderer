@@ -53,9 +53,41 @@ $config = [
     ],
 ];
 ```
+
 ### **Twig**
 
-Coming soon
+```php
+<?php
+
+declare(strict_types=1);
+
+$config = [
+    'pug' => [
+        'debug' => false,
+        'file_extension' => 'twig',
+        'charset' => 'utf-8',
+        'template_path' => 'templates',
+        'cache' => 'var/cache/twig',
+        'auto_reload' => false,
+        'autoescape' => 'html',
+        'strict_variables' => true,
+        'globals' => [
+            // 'name' => 'value',
+        ],
+        'extensions' => [
+            // EtensionClassName::class,
+        ],
+        'filters' => [
+            // 'name' => PHPCallableClass::class,
+            // 'some_function' => 'php_some_function,
+        ],
+        'functions' => [
+            // 'name' => PHPCallableClass::class,
+            // 'some_function' => 'php_some_function,
+        ],
+    ],
+];
+```
 
 <!-- tabs:end -->
 
@@ -129,6 +161,20 @@ html
 
 ### **Twig**
 
-Coming soon
+```twig
+<html>
+<head></head>
+<title>{{ title }}</title>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<body>
+<main>
+    <section class="container">
+    <h1>Hello {{ name }}</h1>
+
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"/>
+    </section>
+</main>
+```
 
 <!-- tabs:end -->
