@@ -162,6 +162,7 @@ html
 ### **Twig**
 
 ```twig
+<!--// templates/index.html.twig-->
 <html>
 <head></head>
 <title>{{ title }}</title>
