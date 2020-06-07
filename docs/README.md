@@ -62,7 +62,7 @@ $config = [
 declare(strict_types=1);
 
 $config = [
-    'pug' => [
+    'template' => [
         'debug' => false,
         'file_extension' => 'twig',
         'charset' => 'utf-8',
