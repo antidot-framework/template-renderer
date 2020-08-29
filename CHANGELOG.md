@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Add Community files [\#3](https://github.com/antidot-framework/template-renderer/pull/3) ([kpicaza](https://github.com/kpicaza))
 - Update phpstan/phpstan requirement from ^0.11.5 to ^0.11.5 || ^0.12.0 [\#2](https://github.com/antidot-framework/template-renderer/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Update phpro/grumphp requirement from ^0.15.0 to ^0.15.0 || ^0.19.0 [\#1](https://github.com/antidot-framework/template-renderer/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
