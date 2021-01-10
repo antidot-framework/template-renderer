@@ -4,4 +4,5 @@ This package is a simple interface that allows implementing different template r
 
 ## Available Implementations
 
+* [Twig Template Renderer](https://github.com/antidot-framework/twig-template-renderer)
 * [Phug Template Renderer](https://github.com/antidot-framework/phug-template-renderer)
